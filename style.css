@@ -1,18 +1,27 @@
 
-body{
+    body{
     background-color: #cccccc;
 }
-img{
+    img{
     width: 85%;
 }
+   .titulo-principal{
+    padding: center;
+}
+    .titulo-centralizado{
+        text-align: center;
+}
 
-h1, p{
+    h1, p{
     text-align: center;
 }
 
-em{
+    em{
     color: rgb(2, 11, 141);
 }
-#missao{
+    #missao{
     font-size: 20px;
+}
+    itens{
+        font-size:20px;
 }
