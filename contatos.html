@@ -29,26 +29,26 @@
    <main>
       <form>
          <label for="nomeSobrenome">Nome e Sobrenome:</label>
-         <input type="text" id="nomeSobrenome" class="input-padrao">
+         <input type="text" id="nomeSobrenome" class="input-padrao" required>
 
          <label for="email">Email:</label>
-         <input type="text" id="email" class="input-padrao">
+         <input type="email" id="email" class="input-padrao" required placeholder="nome@dominio.com">
 
          <label for="telefone">Telefone:</label>
-         <input type="text" id="telefone" class="input-padrao">
+         <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxx-xxxx">
 
          <label for="mensagem">Mensagem:</label>
-         <textarea name="" id="mensagem" cols="30" rows="10" class="input-padrao"></textarea>
+         <textarea name="" id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
 
          <div>
             <p>Como prefere nosso contato?</p>
-            <label for="radio-email"> <input type="radio" name="contato" id="radio-email">Email</label>
+            <label for="radio-email"> <input type="radio" name="contato" id="radio-email"> Email</label>
             
 
-            <label for="radio-telefone"> <input type="radio" name="contato" id="radio-telefone">Telefone</label>
+            <label for="radio-telefone"> <input type="radio" name="contato" id="radio-telefone"> Telefone</label>
             
 
-            <label for="radio-whatsApp"> <input type="radio" name="contato" id="radio-whatsApp">WhatsApp</label>
+            <label for="radio-whatsApp"> <input type="radio" name="contato" id="radio-whatsApp" checked> WhatsApp</label>
          </div>
 
          <div>
@@ -60,10 +60,10 @@
          </select>
          <div>
 
-         <label class="checkbox"><input type="checkbox" name="" id="">Gostaria de receber nossas novidades por e-mail?
+         <label class="checkbox"><input type="checkbox" name="" id="" checked> Gostaria de receber nossas novidades por e-mail?
          </label>
 
-         <input type="submit" value="Enviar Formulário">
+         <input type="submit" value="Enviar Formulário" class="enviar">
       </form>
    </main>
 </body>
