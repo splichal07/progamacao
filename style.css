@@ -140,3 +140,15 @@ form label, form p{
    background: rgb(255, 0, 204);
    transform: scale(1.2);
 }
+table{
+   margin: 20px 0 20px;
+}
+thead{
+   background-color: rgb(255, 0, 204);
+   color:  white;
+   font-weight: bold;
+}
+td, tr{
+   border: 1px solid rgb(255, 0, 204);
+   padding: 10px 20px;
+}
